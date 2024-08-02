@@ -92,6 +92,20 @@ complex_num = complex(2)  # (2+0j)
 ```python
 int_from_str = int("10")  # 10
 float_from_str = float("3.14")  # 3.14
-``
+```
 
-Com esses conceitos e operações, você estará bem equipado para trabalhar com números em Python. Se precisar de mais detalhes ou exemplos específicos, sinta-se à vontade para perguntar!
+# Descobrindo tipo de uma variavel
+## Para descobrir o tipo de uma variavel, podemos usar a função:
+```
+print(type(variavel))
+```
+
+# Atribuindo um valor para duas variaveis 
+## Podemos atribuir dois valores para uma variavel:
+```
+valor1, valor2 = 1, 44
+print(valor1)
+print(type(valor1))
+print(valor2)
+print(type(valor2))
+```

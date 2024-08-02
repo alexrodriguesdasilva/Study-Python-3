@@ -1,0 +1,37 @@
+# O ambiente de desenvolvimento
+1 - Um Editor de texto a sua escolha(Usarei o VS Code)
+2 - Um terminal(Usarei o Terminator)
+3 - Versão 3.11+ do Python(Usarei a 3.12)
+4 - Poetry para gerenciar pacotes e ambiente virtual
+5 - Git para gerenciar versões 
+6 - Docker para criar um container da nossa aplicação
+
+Ferramentas opcionais:
+7 - o pipx para instalar dependencias de forma global
+8 - O ignr para criar o gitignore
+9 - O gh para criar o repositorio e fazer alterações sem precisar acessar a página do github
+
+
+### Pyenv
+Pyenv é uma aplicação externa ao python que você gerencia diferentes versões do python instalada no seu computador
+
+Install pyenv
+https://github.com/pyenv/pyenv-installer
+
+Comandos:
+Listando versões que podemos instalar
+$ pyenv install --list
+
+Instalando versão 3.12
+$ pyenv install 3.12:latest
+
+### Pipx
+Instale o pipx utilizando o pip
+$ pip install pipx
+
+### Poetry
+Instale o poetry através do pipx
+$ pipx install poetry 
+
+### ignr
+$ pipx install ignr
